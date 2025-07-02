@@ -2,12 +2,14 @@
 <html lang="pt_BR">
 
 <head>
+    <link rel="icon" href="/img/formiga.png" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./lib/vue.global.js"></script>
     <script src="./lib/vue-router.global.js"></script>
     <script src="./lib/bootstrap.bundle.min.js" defer></script>
     <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet/less" type="text/css" href="./style/bootstrap.min.css" />
     <link rel="stylesheet/less" type="text/css" href="./style/style.less" />
     <script src="./lib/less.js" type="text/javascript"></script>
     <script src="./lib/sweetalert.js"></script>
@@ -17,7 +19,7 @@
 
 <body>
     <!--Carregando todos os componentes dinamicamente no corpo através do identificador ID-->
-    <div id="app"></div>
+    <div id="app" class="vh-100 m-0"></div>
 
     <!--Importando o script que contém a aplicação do VueJs em prioritário-->
     <script type="module" src="./js/app.js" defer></script>
