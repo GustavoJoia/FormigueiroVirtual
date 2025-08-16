@@ -1,6 +1,7 @@
 // Importando os arquivos através do caminho e atribuindo o seu identificador
 import { Header } from "./components/header.js";
 import { Sidebar } from "./components/sidebar.js";
+import { Navbar } from "./components/navbar.js";
 import { Home } from "./pages/home.js";
 import { Estudos } from "./pages/estudos.js";
 import { Imagens } from "./pages/imagens.js";
@@ -40,7 +41,8 @@ const App = {
             <Sidebar :active-path="activePath"></Sidebar>
             <div class="d-flex flex-column flex-grow-1">
                 <Header class="d-flex"></Header>
-                <div class="flex-grow-1 overflow-auto p-4">
+                <Navbar :active-path="activePath"></Navbar>
+                <div class="flex-grow-1 overflow-auto p-4 bg-pg">
                     <router-view class="h-100"></router-view>
                 </div>
             </div>
@@ -48,6 +50,7 @@ const App = {
     `,
     components:{
         Sidebar,
+        Navbar,
         Header
     },
 

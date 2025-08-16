@@ -1,8 +1,9 @@
 @primary-green: #6ee072;
-@primary-gray: '';
+@secondary-green: rgb(148, 230, 148);
+@primary-gray: #dddddd;
 
 aside#side_nav{
-    width: 200px;
+    width:16vw;
     height: 100%;
     background-color: @primary-green;
     color: white;
@@ -37,25 +38,73 @@ aside#side_nav{
             }
 
             a.active {
-                padding-left: 20px;
+                padding-left: 2vh;
                 color:rgb(255, 255, 255);
             }
         }
     }
 
 }
+nav#mobile-nav {
+
+    display: flex;
+    justify-content: space-around;
+    background-color: @secondary-green;
+
+    ul {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: row !important;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3vw;
+    flex-wrap: wrap;
+
+        li {
+
+            a {
+                color: rgb(0, 0, 0);
+                text-decoration: none;
+                font-weight: bold;
+                transition: color 0.2s;
+                white-space: nowrap;
+
+                &:hover {
+                color: #3498db;
+                }
+            }
+
+            a:hover{
+                color: white;
+                transition: 1s;
+            }
+
+            a.active {
+                color:rgb(255, 255, 255);
+            }
+        }
+    }
+}
 
 header{
     z-index: 2;
+    height: 10vh;
     background-color: @primary-green;
+    display: flex;
+    align-items: center;
+    justify-content: start;
     img{
         // position: absolute;
-        width: 40px;
-        height: auto;
-        transform: translate(20px,0px) rotate(-120deg);
+        width: 3rem;
+        height: 3rem;
+        transform: translate(2vw,0vh) rotate(-120deg);
     }
     h1{
         transform: translate(30px);
+        font-size: 1.5rem;
+        text-align: center;
     }
 
     .formiguinha{
@@ -63,6 +112,10 @@ header{
         animation: andar 20s infinite;
         transform: translate(5vw,-8vh) rotate(150deg);
     }
+}
+
+.bg-pg{
+    background-color: @primary-gray;
 }
 
 @keyframes andar {
@@ -92,4 +145,22 @@ header{
     transform: translate(65vw,-8vh) rotate(55deg);
 }
 
+}
+
+@media (min-width:1001px){
+    #mobile-nav.res-mobile{
+        display: none;
+    }
+}
+
+@media (max-width:1000px) {
+    .res-pc{
+        display:none;
+    }
+}
+
+@media (max-width:500px){
+    .formiguinha{
+        display: none;
+    }
 }
