@@ -37,12 +37,12 @@ const App = {
     },
 
     template: `
-        <div class="d-flex flex-row h-100">
-            <Sidebar :active-path="activePath"></Sidebar>
+        <div class="d-flex flex-column h-100">
+            <Header class="d-flex"></Header>
             <div class="d-flex flex-column flex-grow-1">
-                <Header class="d-flex"></Header>
+                <Sidebar :active-path="activePath"></Sidebar>
                 <Navbar :active-path="activePath"></Navbar>
-                <div class="flex-grow-1 overflow-auto p-4 bg-pg">
+                <div class="flex-grow-1 overflow-auto bg-pg">
                     <router-view class="h-100"></router-view>
                 </div>
             </div>
