@@ -42,7 +42,7 @@ const App = {
             <Navbar :active-path="activePath"></Navbar>
             <div class="d-flex flex-row flex-grow-1">
                 <Sidebar :active-path="activePath"></Sidebar>
-                <div class="flex-grow-1 overflow-auto bg-pg">
+                <div class="flex-grow-1 overflow-hidden bg-pg">
                     <router-view class="h-100"></router-view>
                 </div>
             </div>
