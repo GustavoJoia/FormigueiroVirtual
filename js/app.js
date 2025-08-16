@@ -39,9 +39,9 @@ const App = {
     template: `
         <div class="d-flex flex-column h-100">
             <Header class="d-flex"></Header>
-            <div class="d-flex flex-column flex-grow-1">
+            <Navbar :active-path="activePath"></Navbar>
+            <div class="d-flex flex-row flex-grow-1">
                 <Sidebar :active-path="activePath"></Sidebar>
-                <Navbar :active-path="activePath"></Navbar>
                 <div class="flex-grow-1 overflow-auto bg-pg">
                     <router-view class="h-100"></router-view>
                 </div>
