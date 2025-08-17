@@ -1,13 +1,13 @@
-@primary-green: #6ee072;
-@secondary-green: rgb(148, 230, 148);
-@primary-gray: #dddddd;
+@primary-green: #75975e;
+@secondary-green: #a3c585;
+@primary-gray: #b9b6b6;
 
 aside#side_nav{
     width:16vw;
     min-width: 16vw;
     max-width: 16vw;
     height: 100%;
-    background-color: @primary-green;
+    background-color: @secondary-green;
     color: white;
     position: relative;
     left: 0;
@@ -112,10 +112,28 @@ header{
         text-align: center;
     }
 
+    img.formiguinha {
+        width: 1rem;
+        height: auto;
+    }
+
     .formiguinha{
         position: relative;
         animation: andar 20s infinite;
         transform: translate(5vw,-8vh) rotate(150deg);
+    }
+
+    .delay-1{
+        animation: andar 20s infinite;
+        animation-delay: 5s;
+    }
+    .delay-2{
+        animation: andar 20s infinite;
+        animation-delay: 10s;
+    }
+    .delay-3{
+        animation: andar 20s infinite;
+        animation-delay: 15s;
     }
 }
 
@@ -152,10 +170,23 @@ header{
 
 }
 
-main.home {
-    div.cartao{
-        background-color: @secondary-green;
-    }
+h5.cartao{
+    width: 90%;
+    text-align: left;
+}
+div.cartao{
+    background-color: @secondary-green;
+    width: 90%;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+main.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 @media (min-width:1001px){
