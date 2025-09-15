@@ -170,7 +170,7 @@ header{
 
 }
 
-h5.cartao{
+h5.cartao, h6.cartao{
     width: 90%;
     text-align: left;
 }
@@ -179,6 +179,23 @@ div.cartao{
     width: 90%;
     border-radius: 20px;
     padding: 1rem;
+    margin-bottom: 5rem;
+}
+
+div.cartao_img{
+    background-color: @secondary-green;
+    width: 90%;
+    border-radius: 20px;
+    padding: 1rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+
+    img{
+        width: 200px;
+        height: 200px;
+        // object-fit: fill;
+    }
 }
 
 main.conteudo {
@@ -186,7 +203,7 @@ main.conteudo {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    padding: 2rem;
 }
 
 @media (min-width:1001px){
