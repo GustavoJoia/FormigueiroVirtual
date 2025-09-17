@@ -9,7 +9,7 @@ export const Home = {
                 <p>Somos estudantes da Etec, no curso de Meio Ambiente e, com a orientação de nossos professores e colaboradores, desenvolvemos nosso Trabalho de Conclusão de Curso (TCC) sobre a biodiversidade, a relevância ecológica das formigas e sua taxonomia. Apesar de serem vistas como pragas e, em alguns casos, prejudicarem colheitas, as formigas têm papel essencial na formação e no equilíbrio da biodiversidade, sendo importantes forças estruturantes dos ecossistemas terrestres. Nosso trabalho tem como objetivo mostrar que as formigas não representam apenas malefícios, mas desempenham um papel fundamental no equilíbrio da biodiversidade.</p>
             </div>
             <div class="informiga">
-                <img class="formiga-corpo" src="/img/formigona.png">
+                <div class="antenas"></div>
             </div>
         </main>
     `,
