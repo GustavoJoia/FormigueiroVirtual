@@ -10,7 +10,8 @@ import { Info } from "./pages/info.js";
 
 // Definindo as rotas através desse identificador
 const routes = [
-    { path: '/', component: Home, meta: { title: 'Informigações' }},
+    { path: '/', redirect: '/inicio'},
+    { path: '/inicio', component: Home, meta: { title: 'Informigações' }},
     { path: '/estudos', component: Estudos, meta: { title: 'Formigas estudadas' }},
     { path: '/imagens', component: Imagens, meta: { title: 'Imagens' }},
     { path: '/iscas', component: Iscas, meta: { title: 'Montagem de iscas' }},
