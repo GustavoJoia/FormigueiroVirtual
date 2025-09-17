@@ -21,6 +21,7 @@ export const Iscas = {
     data(){
         return{
             metodos: [
+                {img:'none',title:'Coleta manual/buscativa',text:'Coletar formigas que estão na parte de fora do formigueiro ou distantes, como em pedras, troncos de árvores, dentro de casa, etc.'},
                 {img:'isca',title:'Isca de Sardinha',text:'Colocar dentro de um recipiente que possa ser lacrado (potes, sacos plásticos,etc) um pedaço de papel toalha com um pouco de sardinha, fígado ou qualquer alimento que tenha cheiro forte e deixar próximo a uma entrada de formigueiro de 6 a 12 horas.'},
                 {img:'urina',title:'Isca de Urina',text:'Embebedar um pedaço de algodão em urina e pregar em árvores com formigueiros e deixar em média 2 horas, após isso coletar as formigas com uma pinça. Indicada para a atração de formigas que vivem em árvores.'},
                 {img:'pitfall',title:'Armadilha de Queda (Pitfall)',text:'colocar em um copo plástico água, detergente e açúcar e enterrar próximo a uma entrada de formigueiro até a boca do copo.'},
