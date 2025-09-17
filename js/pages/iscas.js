@@ -10,7 +10,7 @@ export const Iscas = {
 
         <h5 class="cartao">Métodos de coleta</h5>
         <div v-for="metodo in metodos" class="cartao_img">
-            <img :src="'/img/metodos/'+metodo.img+'.jpg'">
+            <img :src="'/img/metodos/'+metodo.img" @click="expandirImg(metodo.img)">
             <div class="cartao_corpo">
                 <h6 class="cartao">{{metodo.title}}</h6>
                 <p>{{metodo.text}}</p>
@@ -22,10 +22,26 @@ export const Iscas = {
         return{
             metodos: [
                 {img:'none',title:'Coleta manual/buscativa',text:'Coletar formigas que estão na parte de fora do formigueiro ou distantes, como em pedras, troncos de árvores, dentro de casa, etc.'},
-                {img:'isca',title:'Isca de Sardinha',text:'Colocar dentro de um recipiente que possa ser lacrado (potes, sacos plásticos,etc) um pedaço de papel toalha com um pouco de sardinha, fígado ou qualquer alimento que tenha cheiro forte e deixar próximo a uma entrada de formigueiro de 6 a 12 horas.'},
-                {img:'urina',title:'Isca de Urina',text:'Embebedar um pedaço de algodão em urina e pregar em árvores com formigueiros e deixar em média 2 horas, após isso coletar as formigas com uma pinça. Indicada para a atração de formigas que vivem em árvores.'},
-                {img:'pitfall',title:'Armadilha de Queda (Pitfall)',text:'colocar em um copo plástico água, detergente e açúcar e enterrar próximo a uma entrada de formigueiro até a boca do copo.'},
+                {img:'isca.jpg',title:'Isca de Sardinha',text:'Colocar dentro de um recipiente que possa ser lacrado (potes, sacos plásticos,etc) um pedaço de papel toalha com um pouco de sardinha, fígado ou qualquer alimento que tenha cheiro forte e deixar próximo a uma entrada de formigueiro de 6 a 12 horas.'},
+                {img:'urina.jpg',title:'Isca de Urina',text:'Embebedar um pedaço de algodão em urina e pregar em árvores com formigueiros e deixar em média 2 horas, após isso coletar as formigas com uma pinça. Indicada para a atração de formigas que vivem em árvores.'},
+                {img:'pitfall.jpg',title:'Armadilha de Queda (Pitfall)',text:'colocar em um copo plástico água, detergente e açúcar e enterrar próximo a uma entrada de formigueiro até a boca do copo.'},
             ]
+        }
+    },
+    methods:{
+        expandirImg(img){
+            this.metodos.forEach(metodo => {
+                if(metodo.img==img){
+                    Swal.fire({
+                        title:metodo.title,
+                        html:'<div style="display: flex; justify-content: center; align-itens: center;"><img style="width: 90%; height: 80%; object-fit: fill" src="/img/metodos/'+metodo.img+'"></div>',
+                        confirmButtonText: 'Fechar',
+                        confirmButtonColor:'#75975e',
+                        width: 600,
+                        height: 300,
+                    })
+                }
+            });
         }
     }
 }
