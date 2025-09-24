@@ -10,7 +10,7 @@ export const Iscas = {
 
         <h5 class="cartao">Métodos de coleta</h5>
         <div v-for="metodo in metodos" class="cartao_img">
-            <img :src="'/img/metodos/'+metodo.img" @click="expandirImg(metodo.img)">
+            <img :src="'/FormigueiroVirtual/img/metodos/'+metodo.img" @click="expandirImg(metodo.img)">
             <div class="cartao_corpo">
                 <h6 class="cartao">{{metodo.title}}</h6>
                 <p>{{metodo.text}}</p>
@@ -34,7 +34,7 @@ export const Iscas = {
                 if(metodo.img==img){
                     Swal.fire({
                         title:metodo.title,
-                        html:'<div style="display: flex; justify-content: center; align-itens: center;"><img style="width: 90%; height: 80%; object-fit: fill" src="/img/metodos/'+metodo.img+'"></div>',
+                        html:'<div style="display: flex; justify-content: center; align-itens: center;"><img style="width: 90%; height: 80%; object-fit: fill" src="/FormigueiroVirtual/img/metodos/'+metodo.img+'"></div>',
                         confirmButtonText: 'Fechar',
                         confirmButtonColor:'#75975e',
                         width: 600,
