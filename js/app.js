@@ -12,10 +12,10 @@ import { Info } from "./pages/info.js";
 const routes = [
     { path: '/', redirect: '/inicio'},
     { path: '/inicio', component: Home, meta: { title: 'Informigações' }},
-    { path: '/estudos', component: Estudos, meta: { title: 'Formigas estudadas' }},
+    { path: '/estudos', component: Estudos, meta: { title: 'Formigas Estudadas' }},
     { path: '/imagens', component: Imagens, meta: { title: 'Imagens' }},
-    { path: '/iscas', component: Iscas, meta: { title: 'Montagem de iscas' }},
-    { path: '/info', component: Info, meta: { title: 'Informações técnicas' }},
+    { path: '/iscas', component: Iscas, meta: { title: 'Montagem de Iscas' }},
+    { path: '/info', component: Info, meta: { title: 'Informações Técnicas' }},
 ];
 
 // Criando o router
