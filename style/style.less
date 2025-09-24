@@ -2,6 +2,7 @@
 @secondary-green: #a3c585;
 @tertiary-green: #75975e6b;
 @primary-gray: #b9b6b6;
+@header-height: 10vh;
 
 aside#side_nav{
     width:16vw;
@@ -92,7 +93,7 @@ nav#mobile-nav {
 
 header{
     z-index: 2;
-    min-height: 10vh;
+    min-height: @header-height;
     background-color: @primary-green;
     position: relative;
     display: flex;
@@ -181,6 +182,10 @@ div.cartao{
     border-radius: 20px;
     padding: 1rem;
     margin-bottom: 5rem;
+
+    p {
+        font-size: large;
+    }
 }
 
 div.cartao_img{
@@ -225,27 +230,27 @@ h4.informiga {
 }
 
 div.informiga {
-    width: 48%;
-    height: 110vh;
+    width: 36em;
+    height: 50em;
     background-image: url(/img/formigona.png);
     background-repeat: no-repeat;
     background-size: contain;
-    border-radius: 2rem;
+    border-radius: 2em;
     border: 1px solid @primary-green;
-    padding: 2rem;
+    padding: 2em;
 }
 
 .parte_corpo {
     border-radius: 50%;
-    width: 20vh;
-    height: 20vh;
+    width: 10rem;
+    height: 10rem;
     background-color: @tertiary-green;
 }
 
 .peca_corpo {
     border-radius: 50%;
-    width: 10vh;
-    height: 10vh;
+    width: 5rem;
+    height: 5rem;
     background-color: @tertiary-green;
 }
 
@@ -304,16 +309,93 @@ div.informiga {
     #mobile-nav.res-mobile{
         display: none;
     }
+    
 }
 
 @media (max-width:1000px) {
     .res-pc{
         display:none;
     }
+    header {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+    .res-mobile {
+        position: fixed;
+        top: @header-height;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+    h5.cartao {
+        margin-top: 17vh;
+    }
+
 }
 
 @media (max-width:500px){
     .formiguinha{
         display: none;
+    }
+}
+
+@media(max-width:578px){
+    div.informiga {
+        font-size: small;
+    }
+    .parte_corpo{
+        width: 7rem;
+        height: 7rem;
+    }
+    .peca_corpo{
+        width: 4rem;
+        height: 4rem;
+    }
+}
+
+@media(max-width:450px){
+    div.informiga {
+        font-size: x-small;
+    }
+    .parte_corpo {
+        width: 5rem;
+        height: 5rem;
+    }
+    .peca_corpo{
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    div.cartao_img {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.cartao_corpo{
+        width: 100%;
+        text-align: center;
+        
+        h6.cartao {
+            text-align: center;
+            width: 100%;
+        }
+        p{
+            width: 100%;
+        }
+    }
+}
+
+@media(max-width:426px){
+    div.cartao {
+        width: 100% !important;
+        border-radius: 0;
+    }
+    main.conteudo {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
