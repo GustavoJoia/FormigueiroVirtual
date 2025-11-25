@@ -1,6 +1,7 @@
 @primary-green: #75975e;
 @secondary-green: #a3c585;
 @tertiary-green: #75975e6b;
+@quartiary-green: #082f17;
 @primary-gray: #b9b6b6;
 @header-height: 10vh;
 
@@ -222,6 +223,20 @@ main.conteudo {
     justify-content: center;
     align-items: center;
     padding: 2rem;
+    
+    .link {
+        color: @quartiary-green !important;
+        font-weight: bold;
+    }
+    
+    .link:hover {
+        color:#fff !important;
+        transition: 1s;
+    }
+}
+
+main.conteudo.estudos {
+    justify-content: flex-start !important;
 }
 
 h4.informiga {

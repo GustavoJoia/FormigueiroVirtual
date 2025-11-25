@@ -12,7 +12,7 @@ import { Info } from "./pages/info.js";
 const routes = [
     { path: '/', redirect: '/inicio'},
     { path: '/inicio', component: Home, meta: { title: 'Informigações' }},
-    { path: '/estudos', component: Estudos, meta: { title: 'Formigas Estudadas' }},
+    { path: '/estudos', component: Estudos, meta: { title: 'Formigas Coletadas' }},
     { path: '/imagens', component: Imagens, meta: { title: 'Imagens' }},
     { path: '/iscas', component: Iscas, meta: { title: 'Montagem de Iscas' }},
     { path: '/info', component: Info, meta: { title: 'Informações Técnicas' }},

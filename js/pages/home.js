@@ -40,13 +40,13 @@ export const Home = {
                 {nome:'Tórax',text:'Local onde as pernas estão fixadas e contém os músculos necessários para o movimento. Em formigas com asas contém os músculos necessários para voar, após o acasalamento as formigas perdem suas asas deixando uma cicatriz no local.'},
                 {nome:'Pernas',text:'As pernas das formigas estão divididas em três partes: Tibia, Fêmur e Tarso. Conseguem andar e escalar sob qualquer superfície.'},
                 {nome:'Coxas',text:'É o segmento mais próximo ao corpo da formiga onde a perna se une ao torax.'},
-                {nome:'Trocânter',text:'É um pequeno segmento localizado entre a coxa e o fêmur, ajuda na articulação da perna e proporciona flexibilidade nós movimentos.'},
+                {nome:'Trocânter',text:'É um pequeno segmento localizado entre a coxa e o fêmur, ajuda na articulação da perna e proporciona flexibilidade nos movimentos.'},
                 {nome:'Fêmur',text:'Crucial para o movimento e força da perna.'},
-                {nome:'Tibia',text:'Desempenha um palpe importante no movimento permite que a formiga estenda e dobre a perna.'},
+                {nome:'Tíbia',text:'Desempenha um palpe importante no movimento permite que a formiga estenda e dobre a perna.'},
                 {nome:'Tarsos',text:'São os últimos segmentos da perna são compostos por vários pequenos segmentos chamados tarsômetros. Os tarsos estão equipados com espinhos e pelos sensoriais que ajudam a formiga a se agarrar a superfície e detectar estimulos do ambiente.'},
                 {nome:'Garras',text:'No final dos tarsos,as pernas das formigas estão equipadas com garras que permitem que elas agarrem as superfície e escalem com facilidade.'},
-                {nome:'Peciolo',text:'Estrutura semelhante a uma cintura que liga o torax ao abdômen, algumas formigas tem o peciolo de um segmento e outras de dois segmentos, é a principal forma de identificação.'},
-                {nome:'Gaster',text:'Contém os órgãos vitais e os órgãos reprodutores. E também o local onde se encontra o armamento químico da formiga, incluindo veneno e ácido fórmico.'},
+                {nome:'Pecíolo',text:'Estrutura semelhante a uma cintura que liga o torax ao abdômen, algumas formigas tem o peciolo de um segmento e outras de dois segmentos, é a principal forma de identificação.'},
+                {nome:'Gáster',text:'Contém os órgãos vitais e os órgãos reprodutores. E também o local onde se encontra o armamento químico da formiga, incluindo veneno e ácido fórmico.'},
             ]
         }
     },
