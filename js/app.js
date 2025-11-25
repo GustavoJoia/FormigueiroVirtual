@@ -41,10 +41,10 @@ const App = {
         <div class="d-flex flex-column h-100">
             <Header class="d-flex"></Header>
             <Navbar :active-path="activePath"></Navbar>
-            <div class="d-flex flex-row flex-grow-1">
+            <div class="d-flex flex-row flex-grow-1" style="min-height:0">
                 <Sidebar :active-path="activePath"></Sidebar>
-                <div class="flex-grow-1 overflow-hidden bg-pg">
-                    <router-view class="h-100"></router-view>
+                <div class="flex-grow-1 overflow-scroll bg-pg content-scroll">
+                    <router-view></router-view>
                 </div>
             </div>
         </div>
