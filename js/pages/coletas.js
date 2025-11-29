@@ -38,11 +38,11 @@ export const Coletas = {
                 {}
             ],
             locais:[
-                {img:'1.jpg'},
-                {img:'2.jpg'},
-                {img:'3.jpg'},
-                {img:'4.jpg'},
-                {img:'5.jpg'}
+                {img:'1.jpg',legenda:'Legenda: Mapa por satélite da escola técnica Etec Doutor Celso Giglio. Os pontos azuis simbolizam as coordenadas específicas de cada ponto de coleta.<br><br>Fonte: Google Maps (2024)'},
+                {img:'2.jpg',legenda:'Legenda: Mapa em satélite dos quatro pontos de coleta na cidade de Osasco.<br><br>Fonte: Google Maps (2025)'},
+                {img:'3.jpg',legenda:'Legenda: Mapa em satélite dos pontos de coleta na Rua Vila dos Remédios, Rua santo Ubaldo, 158.<br><br>Fonte: Google Maps (2025)'},
+                {img:'4.jpg',legenda:"Legenda: Mapa em satélite dos pontos de coleta na Rua Domitila D'Abril Jardim Davila, 85.<br><br>Fonte: Google Maps (2025)"},
+                {img:'5.jpg',legenda:'Legenda: Mapa em satélite dos pontos de coleta no Condomínio Residencial Vida Nova 3935, em Avenida Edmundo Amaral, no bairro Piratininga.<br><br>Fonte: Google Maps (2025)'}
             ]
         }
     },
@@ -50,7 +50,7 @@ export const Coletas = {
         expandirImg(img){
             Swal.fire({
                 title:img.title,
-                html:'<div style="display: flex; justify-content: center; align-itens: center;"><img style="width: 90%; height: 80%; object-fit: fill" src="/FormigueiroVirtual/img/iscas/'+img.img+'"></div>',
+                html:'<div style="display: flex; justify-content: center; align-itens: center; flex-direction: column"><img style="width: 90%; height: 80%; object-fit: fill" src="/FormigueiroVirtual/img/iscas/'+img.img+'"><p>'+img.legenda+'</p></div>',
                 confirmButtonText: 'Fechar',
                 confirmButtonColor:'#75975e',
                 width: 600,
