@@ -69,7 +69,7 @@ export const Coletas = {
             this.coletas.forEach(coleta => {
                 if(coleta.img==img){
                     Swal.fire({
-                        html:'<div style="display: flex; flex-direction: column; justify-content: center; align-items: center;"><img style="width: 90%; height: 50%; object-fit: cover" src="/FormigueiroVirtual/img/locais/'+coleta.img+'"><p>'+coleta.legenda+'</p></div>',
+                        html:'<div style="display: flex; flex-direction: column; justify-content: center; align-items: center;"><img style="width: 90%; height: 50%; object-fit: cover" src="/FormigueiroVirtual/img/coletas/'+coleta.img+'"><p>'+coleta.legenda+'</p></div>',
                         confirmButtonText: 'Fechar',
                         confirmButtonColor:'#75975e',
                         width: 600,
