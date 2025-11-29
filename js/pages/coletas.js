@@ -14,7 +14,7 @@ export const Coletas = {
             <h5 class="cartao">Mapas de Coleta</h5>
             <div class="grid">
                 <div v-for="local in locais" class="coleta">
-                    <img :src="'/FormigueiroVirtual/img/locais/'+local.img" @click="expandirImg(local.img,local.legenda)">
+                    <img :src="'/FormigueiroVirtual/img/locais/'+local.img" @click="expandirImg(local.img)">
                     <div>
                     </div>
                 </div>
@@ -47,11 +47,11 @@ export const Coletas = {
         }
     },
     methods:{
-        expandirImg(img,legenda){
+        expandirImg(img){
             this.locais.forEach(local => {
-                if(local.img==img&&local.legenda==legenda){
+                if(local.img==img){
                     Swal.fire({
-                        html:'<div style="display: flex; justify-content: center; align-itens: center; flex-direction: column"><img style="width: 90%; height: 80%; object-fit: fill" :src="/FormigueiroVirtual/img/iscas/'+local.img+'"><p>'+local.legenda+'</p></div>',
+                        html:'<div style="display: flex; justify-content: center; align-itens: center; flex-direction: column"><img style="width: 90%; height: 80%; object-fit: fill" :src="/FormigueiroVirtual/img/locais/'+local.img+'"><p>'+local.legenda+'</p></div>',
                         confirmButtonText: 'Fechar',
                         confirmButtonColor:'#75975e',
                         width: 600,
