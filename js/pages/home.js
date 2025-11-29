@@ -37,7 +37,14 @@ export const Home = {
                 links
             </div>
             <div class="col">
-                agradecimentos
+                <h4 class="informiga">Agradecimentos</h4>
+                <p>Agradecemos primeiramente aos membros do Laboratório Feitosa, especialmente à mestranda Vitória Brunetta, cuja ajuda foi indispensável e ilimitada para a realização deste trabalho.</p>
+                <br>
+                <p>Agradecemos aos nossos orientadores e professores, Fernanda Amaral Sanches Lucas e Jorge Luis Costa, pelo apoio, pela orientação e pelas horas dedicadas ao aprimoramento do nosso projeto.</p>
+                <br>
+                <p>Agradecemos também ao nosso colega Gustavo Jóia pela concretização deste site e por toda a paciência, apoio e suporte essenciais para que tudo ficasse perfeito.</p>
+                <br>
+                <p>Por fim, agradecemos a Anthony Butka Markoski, bem como a todos os amigos, pais, colegas e companheiros que revisaram, testaram, deram dicas e foram incríveis durante toda a nossa jornada.</p>
             </div>
         </footer>
     `,
