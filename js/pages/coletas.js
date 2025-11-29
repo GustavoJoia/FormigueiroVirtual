@@ -5,7 +5,7 @@ export const Coletas = {
             <h5 class="cartao">Formigas Montadas</h5>
             <div class="grid">
                 <div v-for="coleta in coletas" class="coleta">
-                    <img :src="'/FormigueiroVirtual/img/locais/'+coleta.img" @click="expandirImg2(coleta.img)">
+                    <img :src="'/FormigueiroVirtual/img/coletas/'+coleta.img" @click="expandirImg2(coleta.img)">
                     <div>
                     </div>
                 </div>
@@ -26,7 +26,13 @@ export const Coletas = {
     data(){
         return{
             coletas:[
-                {img:'1.jpg',legenda:'Legenda: Mapa por satélite da escola técnica Etec Doutor Celso Giglio. Os pontos azuis simbolizam as coordenadas específicas de cada ponto de coleta.<br><br>Fonte: Google Maps (2024)'},
+                {img:'1.jpg',legenda:`Holcoponera striatula. 
+<br>Ectatomminae. S23°31'18.318404"W46°45'29.064817". 
+<br><br>
+Informações de Coleta:
+<br>Isca de urina
+<br>31/05/2024
+<br>R. Santos — Coletor`},
                 {img:'2.jpg',legenda:'Legenda: Mapa em satélite dos quatro pontos de coleta na cidade de Osasco.<br><br>Fonte: Google Maps (2025)'},
                 {img:'3.jpg',legenda:'Legenda: Mapa em satélite dos pontos de coleta na Rua Vila dos Remédios, Rua santo Ubaldo, 158.<br><br>Fonte: Google Maps (2025)'},
                 {img:'4.jpg',legenda:"Legenda: Mapa em satélite dos pontos de coleta na Rua Domitila D'Abril Jardim Davila, 85.<br><br>Fonte: Google Maps (2025)"},
