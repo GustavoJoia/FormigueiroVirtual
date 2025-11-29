@@ -61,7 +61,7 @@ Informações de Coleta:
             this.locais.forEach(local => {
                 if(local.img==img){
                     Swal.fire({
-                        html:'<div style="display: flex; flex-direction: column; justify-content: center; align-items: center;"><img style="width: 90%; height: 50%; object-fit: cover" src="/FormigueiroVirtual/img/locais/'+local.img+'"><p>'+local.legenda+'</p></div>',
+                        html:'<div style="display: flex; flex-direction: column; justify-content: center; align-items: center;"><img style="width: 90%; height: 50%; object-fit: cover" src="/FormigueiroVirtual/img/locais/'+local.img+'"><br><p>'+local.legenda+'</p></div>',
                         confirmButtonText: 'Fechar',
                         confirmButtonColor:'#75975e',
                         width: 600,
@@ -75,7 +75,7 @@ Informações de Coleta:
             this.coletas.forEach(coleta => {
                 if(coleta.img==img){
                     Swal.fire({
-                        html:'<div style="display: flex; flex-direction: column; justify-content: center; align-items: center;"><img style="width: 90%; height: 50%; object-fit: cover" src="/FormigueiroVirtual/img/coletas/'+coleta.img+'"><p>'+coleta.legenda+'</p></div>',
+                        html:'<div style="display: flex; flex-direction: column; justify-content: center; align-items: center;"><img style="width: 90%; height: 50%; object-fit: cover" src="/FormigueiroVirtual/img/coletas/'+coleta.img+'"><br><p>'+coleta.legenda+'</p></div>',
                         confirmButtonText: 'Fechar',
                         confirmButtonColor:'#75975e',
                         width: 600,
