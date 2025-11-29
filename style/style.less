@@ -92,6 +92,32 @@ nav#mobile-nav {
     }
 }
 
+div.grid {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 85vw;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+div.coleta {
+    max-width: 1fr;
+    height: 200px;
+    width: 200px;
+    background: @secondary-green;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+div.custom-scroll{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
 header{
     z-index: 2;
     min-height: @header-height;
@@ -220,14 +246,14 @@ div.cartao_img{
 /* Garante que o conteúdo role sem mover o sidebar/nav */
 .content-scroll {
     height: 100%;
-    overflow-y: auto;
+    // overflow-y: auto;
     padding: 1rem;
 }
 
 /* Remove scroll duplo no body */
 html, body {
     height: 100%;
-    overflow: hidden;
+    // overflow: hidden;
 }
 
 main.conteudo {

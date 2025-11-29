@@ -1,6 +1,7 @@
 export const Iscas = {
     template:`
     <main class="conteudo">
+        <br>
         <h5 class="cartao">Informações Sobre</h5>
         <div class="cartao">
             <p>Ao coletar formigas, é necessário que se tenha consciência de que você está lidando com seres vivos e sencientes cujo a vida possui tanto valor quanto a sua! Considerando isso, é necessário que haja uma ética envolvida na coleta e no cuidado dos insetos coletados por você, seus colegas ou profissionais que você conhece.</p>

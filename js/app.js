@@ -3,17 +3,19 @@ import { Header } from "./components/header.js";
 import { Sidebar } from "./components/sidebar.js";
 import { Navbar } from "./components/navbar.js";
 import { Home } from "./pages/home.js";
-import { Estudos } from "./pages/estudos.js";
+import { Sobre } from "./pages/sobre.js";
 import { Imagens } from "./pages/imagens.js";
 import { Iscas } from "./pages/iscas.js";
 import { Info } from "./pages/info.js";
+import { Coletas } from "./pages/coletas.js";
 
 // Definindo as rotas através desse identificador
 const routes = [
     { path: '/', redirect: '/inicio'},
     { path: '/inicio', component: Home, meta: { title: 'Informigações' }},
-    { path: '/estudos', component: Estudos, meta: { title: 'Formigas Coletadas' }},
+    { path: '/sobre', component: Sobre, meta: { title: 'Sobre O Projeto' }},
     { path: '/imagens', component: Imagens, meta: { title: 'Imagens' }},
+    { path: '/coletas', component: Coletas, meta: { title: 'Formigas Estudadas' }},
     { path: '/iscas', component: Iscas, meta: { title: 'Montagem de Iscas' }},
     { path: '/info', component: Info, meta: { title: 'Informações Técnicas' }},
 ];
@@ -43,7 +45,7 @@ const App = {
             <Navbar :active-path="activePath"></Navbar>
             <div class="d-flex flex-row flex-grow-1" style="min-height:0">
                 <Sidebar :active-path="activePath"></Sidebar>
-                <div class="flex-grow-1 overflow-scroll bg-pg content-scroll">
+                <div class="flex-grow-1 custom-scroll bg-pg content-scroll">
                     <router-view></router-view>
                 </div>
             </div>

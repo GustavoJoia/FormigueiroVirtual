@@ -3,6 +3,7 @@
 export const Home = {
     template: `
         <main class="conteudo">
+            <br>
             <h5 class="cartao">Quem Somos?</h5>
             <div class="cartao">
                 <p>Este site foi criado com o propósito de introduzir uma visão geral sobre as formigas, apresentando suas funções no ecossistema, destacar suas características taxonômicas que permitem compreender sua diversidade. Também traz orientações sobre métodos adequados de coleta, e instruções para a montagem de um insetário e de como fazer a identificação de formigas.</p>

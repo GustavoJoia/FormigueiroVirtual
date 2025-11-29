@@ -1,6 +1,7 @@
-export const Estudos = {
+export const Sobre = {
     template: `
         <main class="conteudo estudos">
+            <br>
             <h5 class="cartao">Como começamos?</h5>
             <div class="cartao">
                 <br><br>
