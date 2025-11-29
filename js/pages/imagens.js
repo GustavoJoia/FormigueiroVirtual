@@ -6,7 +6,7 @@ export const Imagens = {
             <div class="midia-scroll">
                 <div v-for="(midia,index) in midias">
                     <img v-if="index!=15" class="midia" :src="'/FormigueiroVirtual/img/midia/'+midia.data">
-                    <video v-else :src="'/FormigueiroVirtual/img/midia/'+midia.data" controls muted autoplay loop>
+                    <video v-else width="128" height="135" :src="'/FormigueiroVirtual/img/midia/'+midia.data" controls muted autoplay loop>
                 </div>
             </div>
         </main>
