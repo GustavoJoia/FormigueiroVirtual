@@ -32,6 +32,14 @@ export const Home = {
                 </div>
             </div>
         </main>
+        <footer>
+            <div class="col">
+                links
+            </div>
+            <div class="col">
+                agradecimentos
+            </div>
+        </footer>
     `,
     data(){
         return {

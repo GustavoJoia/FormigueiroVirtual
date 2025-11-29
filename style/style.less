@@ -226,6 +226,18 @@ img.midia:hover{
     background-color: @primary-gray;
 }
 
+@keyframes rodape {
+    0%{
+        background-image: url('/FormigueiroVirtual/img/rodape/1.jpg');
+    }
+    33%{
+        background-image: url('/FormigueiroVirtual/img/rodape/2.jpg');
+    }
+    67%{
+        background-image: url('/FormigueiroVirtual/img/rodape/3.jpg');
+    }
+}
+
 @keyframes andar {
 
 0%,100%{
@@ -271,6 +283,40 @@ div.cartao{
     }
 }
 
+footer {
+    position: relative;
+    padding: 20px;
+    color: white;
+    overflow: hidden; /* importante para o blur não vazar */
+    display: flex;
+    flex-direction: row;
+}
+
+/* Camada com imagem desfocada */
+footer::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url('/FormigueiroVirtual/img/rodape/1.jpg');
+    background-size: cover;
+    background-position: center;
+    animation: rodape 10s infinite ease-in-out;
+    filter: blur(8px); /* ajuste o nível do desfoque */
+    transform: scale(1.1); /* evita bordas visíveis após blur */
+    z-index: 0;
+}
+
+footer > * {
+    position: relative;
+    z-index: 1;
+}
+
+div.col{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+}
+
 div.cartao_img{
     background-color: @secondary-green;
     width: 90%;
@@ -304,7 +350,7 @@ div.cartao_img{
 .content-scroll {
     height: 100%;
     // overflow-y: auto;
-    padding: 1rem;
+    // padding: 1rem;
 }
 
 /* Remove scroll duplo no body */
