@@ -48,13 +48,17 @@ export const Coletas = {
     },
     methods:{
         expandirImg(img,legenda){
-            Swal.fire({
-                html:'<div style="display: flex; justify-content: center; align-itens: center; flex-direction: column"><img style="width: 90%; height: 80%; object-fit: fill" :src="/FormigueiroVirtual/img/iscas/'+img+'"><p>'+legenda+'</p></div>',
-                confirmButtonText: 'Fechar',
-                confirmButtonColor:'#75975e',
-                width: 600,
-                height: 300,
-            })
+            this.locais.forEach(local => {
+                if(local.img==img&&local.legenda==legenda){
+                    Swal.fire({
+                        html:'<div style="display: flex; justify-content: center; align-itens: center; flex-direction: column"><img style="width: 90%; height: 80%; object-fit: fill" :src="/FormigueiroVirtual/img/iscas/'+local.img+'"><p>'+local.legenda+'</p></div>',
+                        confirmButtonText: 'Fechar',
+                        confirmButtonColor:'#75975e',
+                        width: 600,
+                        height: 300,
+                    })
+                }
+            });
         }
         
     }
