@@ -4,7 +4,7 @@ export const Imagens = {
             <h4 class="informiga">Registro de mídia</h4>
             <div class="midia-scroll">
                 <img v-for="midia in midias" class="midia" :src="'/FormigueiroVirtual/img/midia/'+midia.data">
-                <video src="/FormigueiroVirtual/img/midia/16.mov" class="midia" width="128" height="128" controls muted loop></video>
+                <video src="/FormigueiroVirtual/img/midia/16.mov" class="midia" width="128" height="128" muted></video>
             </div>
         </main>
     `,
