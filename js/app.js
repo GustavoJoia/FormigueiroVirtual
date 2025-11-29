@@ -13,7 +13,7 @@ import { Coletas } from "./pages/coletas.js";
 const routes = [
     { path: '/', redirect: '/inicio'},
     { path: '/inicio', component: Home, meta: { title: 'Informigações' }},
-    { path: '/sobre', component: Sobre, meta: { title: 'Sobre O Projeto' }},
+    { path: '/sobre', component: Sobre, meta: { title: 'Sobre o Projeto' }},
     { path: '/imagens', component: Imagens, meta: { title: 'Imagens' }},
     { path: '/coletas', component: Coletas, meta: { title: 'Formigas Estudadas' }},
     { path: '/iscas', component: Iscas, meta: { title: 'Montagem de Iscas' }},
