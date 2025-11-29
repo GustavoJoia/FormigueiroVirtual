@@ -50,7 +50,7 @@ export const Coletas = {
         expandirImg(img){
             Swal.fire({
                 title:img.title,
-                html:'<div style="display: flex; justify-content: center; align-itens: center; flex-direction: column"><img style="width: 90%; height: 80%; object-fit: fill" src="/FormigueiroVirtual/img/iscas/'+img.img+'"><p>'+img.legenda+'</p></div>',
+                html:'<div style="display: flex; justify-content: center; align-itens: center; flex-direction: column"><img style="width: 90%; height: 80%; object-fit: fill" :src="/FormigueiroVirtual/img/iscas/'+img.img+'"><p>'+img.legenda+'</p></div>',
                 confirmButtonText: 'Fechar',
                 confirmButtonColor:'#75975e',
                 width: 600,
