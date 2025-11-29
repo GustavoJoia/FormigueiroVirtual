@@ -51,7 +51,7 @@ export const Coletas = {
             this.locais.forEach(local => {
                 if(local.img==img){
                     Swal.fire({
-                        html:'<div style="display: flex; justify-content: center; align-itens: center;"><img style="width: 90%; height: 80%; object-fit: fill" src="/FormigueiroVirtual/img/locais/'+local.img+'"></div>',
+                        html:'<div style="display: flex; flex-direction: column, justify-content: center; align-itens: center;"><img style="width: 90%; height: 80%; object-fit: fill" src="/FormigueiroVirtual/img/locais/'+local.img+'"><p>'+local.legenda+'</p></div>',
                         confirmButtonText: 'Fechar',
                         confirmButtonColor:'#75975e',
                         width: 600,
