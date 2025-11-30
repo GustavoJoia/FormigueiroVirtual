@@ -12,7 +12,7 @@ export const Imagens = {
                 <img class="midia-expand" :src="'/FormigueiroVirtual/img/midia/'+activeUri">
             </div>
             <div v-if="isVideo" class="cartao">
-                <video class="midia-expand" :src="'/FormigueiroVirtual/img/midia/'+activeUri" loop controls muted>
+                <video width="'100%'" height="'100%'" class="midia-expand" :src="'/FormigueiroVirtual/img/midia/'+activeUri" loop controls muted>
             </div>
         </main>
     `,
