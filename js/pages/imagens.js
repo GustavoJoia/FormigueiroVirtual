@@ -46,7 +46,7 @@ export const Imagens = {
             if(index!=15){
                 this.activeUri = this.midias[index].data;
                 this.isImg = true;
-                this.isVIdeo = false;
+                this.isVideo = false;
             } else {
                 this.activeUri = '16.mov';
                 this.isImg = false;
