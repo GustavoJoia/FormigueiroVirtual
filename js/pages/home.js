@@ -229,14 +229,14 @@ export const Home = {
     data(){
         return {
             partes:[
-                {nome:'Antenas',text:'As formigas tem as antenas em forma de cotovelo que são cruciais na sua comunicação e navegação. As antenas são utilizadas para receber e expelir feromônios.'},
+                {nome:'Antenas',text:'As formigas têm as antenas em forma de cotovelo que são cruciais na sua comunicação e navegação. As antenas são utilizadas para receber e expelir feromônios.'},
                 {nome:'Cabeça',text:'Na cabeça é onde está localizado; Mandíbula: as mandíbulas que são utilizadas para agarrar, cortar e transportar objetos; Olhos:  os olhos constituídos por numerosos omatídeos, formigas aladas contém olhos simples chamados ocelos, que as ajudam a se orientar utilizando a luz.'},
                 {nome:'Tórax',text:'Local onde as pernas estão fixadas e contém os músculos necessários para o movimento. Em formigas com asas contém os músculos necessários para voar, após o acasalamento as formigas perdem suas asas deixando uma cicatriz no local.'},
                 {nome:'Pernas',text:'As pernas das formigas estão divididas em três partes: Tíbia, Fêmur e Tarso. Conseguem andar e escalar sob qualquer superfície.'},
                 {nome:'Coxas',text:'É o segmento mais próximo ao corpo da formiga onde a perna se une ao tórax.'},
                 {nome:'Trocânter',text:'É um pequeno segmento localizado entre a coxa e o fêmur, ajuda na articulação da perna e proporciona flexibilidade nos movimentos.'},
                 {nome:'Fêmur',text:'Crucial para o movimento e força da perna.'},
-                {nome:'Tíbia',text:'Desempenha um palpe importante no movimento permite que a formiga estenda e dobre a perna.'},
+                {nome:'Tíbia',text:'Desempenha uma parte importante no movimento permite que a formiga estenda e dobre a perna.'},
                 {nome:'Tarsos',text:'São os últimos segmentos da perna são compostos por vários pequenos segmentos chamados tarsômetros. Os tarsos estão equipados com espinhos e pelos sensoriais que ajudam a formiga a se agarrar a superfície e detectar estimulos do ambiente.'},
                 {nome:'Garras',text:'No final dos tarsos,as pernas das formigas estão equipadas com garras que permitem que elas agarrem as superfície e escalem com facilidade.'},
                 {nome:'Pecíolo',text:'Estrutura semelhante a uma cintura que liga o tórax ao abdômen, algumas formigas tem o pecíolo de um segmento e outras de dois segmentos, é a principal forma de identificação.'},
