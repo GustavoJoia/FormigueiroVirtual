@@ -9,10 +9,10 @@ export const Imagens = {
                 </div>
             </div>
             <div v-if="isImg" class="cartao">
-                <img class="midia-expand" :src="activeUri">
+                <img class="midia-expand" :src="'/FormigueiroVirtual/img/midia/'+activeUri">
             </div>
             <div v-if="isVideo" class="cartao">
-                <video class="midia-expand" :src="activeUri" loop controls muted>
+                <video class="midia-expand" :src="'/FormigueiroVirtual/img/midia/'+activeUri" loop controls muted>
             </div>
         </main>
     `,
