@@ -8,10 +8,10 @@ export const Imagens = {
                     <img @click="setActive(index)" class="midia" :src="'/FormigueiroVirtual/img/midia/'+midia.data">
                 </div>
             </div>
-            <div v-if="isImg" class="cartao">
+            <div v-if="isImg" class="cartao cartao-midia">
                 <img class="midia-expand" :src="'/FormigueiroVirtual/img/midia/'+activeUri">
             </div>
-            <div v-if="isVideo" class="cartao">
+            <div v-if="isVideo" class="cartao cartao-midia">
                 <video width="'100%'" height="'100%'" class="midia-expand" :src="'/FormigueiroVirtual/img/midia/'+activeUri" loop controls muted>
             </div>
         </main>
