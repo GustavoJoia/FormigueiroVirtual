@@ -49,8 +49,8 @@ export const Imagens = {
                 this.isVIdeo = false;
             } else {
                 this.activeUri = '16.mov';
-                this.isVideo = true;
                 this.isImg = false;
+                this.isVideo = true;
             }
         }
     },
