@@ -2,7 +2,7 @@ export const Imagens = {
     template:`
         <main class="conteudo estudos">
         <br>
-            <h4 class="informiga">Registro de mídia</h4>
+            <h5 class="cartao">Registro de mídia</h5>
             <div class="midia-scroll">
                 <div v-for="(midia,index) in midias">
                     <img @click="setActive(index)" class="midia" :src="'/FormigueiroVirtual/img/midia/'+midia.data">
