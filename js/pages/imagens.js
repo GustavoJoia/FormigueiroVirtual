@@ -5,9 +5,14 @@ export const Imagens = {
             <h4 class="informiga">Registro de mídia</h4>
             <div class="midia-scroll">
                 <div v-for="(midia,index) in midias">
-                    <img v-if="index!=15" class="midia" :src="'/FormigueiroVirtual/img/midia/'+midia.data">
-                    <video v-else width="128" height="135" :src="'/FormigueiroVirtual/img/midia/'+midia.data" controls muted autoplay loop>
+                    <img @click="setActive(index)" class="midia" :src="'/FormigueiroVirtual/img/midia/'+midia.data">
                 </div>
+            </div>
+            <div v-if="isImg" class="cartao">
+                <img class="midia-expand" :src="activeUri">
+            </div>
+            <div v-if="isVideo" class="cartao">
+                <video class="midia-expand" :src="activeUri" loop controls muted>
             </div>
         </main>
     `,
@@ -29,18 +34,24 @@ export const Imagens = {
                 {data:'13.jpg',selected:false},
                 {data:'14.jpg',selected:false},
                 {data:'15.jpg',selected:false},
-                {data:'16.mov',selected:false}
-            ]
+                {data:'16.jpg',selected:false}
+            ],
+            activeUri:'',
+            isImg: false,
+            isVideo: false
         }
     },
     methods:{
         setActive(index){
-            this.midias.forEach(midia, i => {
-                if(midia[i].data!=midia[index].data){
-                    midia[i].selected = false;
-                }
-                midia[index].selected = true;
-            });
+            if(index!=15){
+                this.activeUri = this.midias[index].data;
+                this.isImg = true;
+                this.isVIdeo = false;
+            } else {
+                this.activeUri = '16.mov';
+                this.isVideo = true;
+                this.isImg = false;
+            }
         }
     },
 }

@@ -34,7 +34,87 @@ export const Home = {
         </main>
         <footer>
             <div class="col">
-                links
+                <h4 class="informiga">Referências</h4>
+                <p>https://scholar.google.com.br/scholar?hl=pt-BR&lr=lang_pt&as_sdt=0%2C5&as_ylo=2021&q=%22import%C3%A2ncia+da+biodiversidade%22&btnG=#d=gs_qabs&t=1739400431340&u=%23p%3DTLg0pl73SEMJ data de acesso: 12/02</p>
+                <p>https://scholar.google.com.br/scholar?hl=pt-BR&as_sdt=0%2C5&as_ylo=2021&q=formigas&btnG=#d=gs_qabs&t=1739400623992&u=%23p%3D39JhyAvL6lEJ data de acesso: 12/02</p>
+
+                <p>https://scholar.google.com.br/scholar?hl=pt-BR&as_sdt=0%2C5&as_ylo=2021&q=formigas&btnG=#d=gs_qabs&t=1739400660422&u=%23p%3DleLDtDJIQ34J data de acesso: 12/02</p>
+
+                <p>https://scholar.google.com.br/scholar?start=20&q=formigas&hl=pt-BR&as_sdt=0,5&as_ylo=2021#d=gs_qabs&t=1739400750653&u=%23p%3DxrcMIxgx1fUJ data de acesso: 12/02</p>
+
+                <p>https://periodicosuneal.emnuvens.com.br/ambientale/article/download/318/268 data acesso: 12/02</p>
+
+                <p>https://diversitasjournal.com.br/diversitas_journal/article/download/2037/1935 data de acesso: 12/02</p>
+
+                <p>https://cienciaecultura.bvs.br/pdf/cic/v75n4/v75n4a08.pdf data de acesso: 12/02</p>
+
+                <p>https://revistas.pucsp.br/fid/article/download/57292/41936 data de acesso: 12/02</p>
+
+                <p>https://periodicos.ifal.edu.br/educte/article/download/2051/1516 data de acesso: 12/02</p>
+
+                <p>https://portal.unemat.br/media/files/dissertao-karla-versao-final-turma-2018-certo.pdf data de acesso: 12/02</p>
+
+                <p>https://www.journals.ufrpe.br/index.php/JEAP/article/download/3118/482483665 data de acesso: 12/02</p>
+
+                <p>https://revistacienciaecultura.org.br/?artigos=microbiomas-de-formigas-fungicultoras-em-diferentes-biomas-brasileiros data de acesso: 22/02</p>
+
+                <p>https://www.feitosalab.com/copia-identificacao-de-material-2 data de acesso: 03/04</p>
+
+                <p>https://bdtd.ibict.br/vufind/Record/UFV_b9a2327bc2ec50b2bf2766ac8ffb48f4 data de acesso: 26/06</p>
+
+                <p>https://www.youtube.com/watch?v=eMewacz6VBg data de acesso: 26/06</p>
+
+                <p>https://share.google/0cOndCHZ9hDgDsGCA data de acesso: 26/06</p>
+
+                <p>https://pt.wikipedia.org/wiki/Mirmecologia#:~:text=Mirmecologistas%20c%C3%A9lebres,Wheeler%2C%20F data de acesso: 28/08</p>
+
+                <p>file:///C:/Users/Aluno/Downloads/A+Hist%C3%B3ria+das+formigas+e+as+formigas+na+hist%C3%B3ria_+etologia+e+cultura%20(1).pdf data de acesso: 28/08</p>
+
+                <p>https://share.google/S7rKAM5ayFHKMm9uM data de acesso: 28/08</p>
+
+                <p>https://share.google/T26zDToWK2UNXEtd1 data de acesso: 28/08</p>
+
+                <p>https://www.biota.org.br/os-segredos-das-formigas-cultivadoras-de-fungos/ data de acesso: 28/08</p>
+
+                <p>https://www.bvs-vet.org.br/vetindex/periodicos/brazilian-journal-biology/85-(2025)/assembleia-de-formigas-hymenoptera-formicidae-e-padroes-espaciais-de-d/ data de acesso: 25/09</p>
+
+                <p>https://www.journals.ufrpe.br/index.php/JEAP/article/view/3118?utm_source=chatgpt.com data de acesso: 25/09</p>
+
+                <p>https://www.biodiversity4all.org/taxa/891179-Attina data de acesso: 25/09</p>
+
+                <p>https://www.agrolink.com.br/problemas/quenquem_274.html data de acesso: 25/09</p>
+
+                <p>https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/917040/1/CT290.pdf data de acesso: 25/09</p>
+
+                <p>file:///C:/Users/Aluno/Downloads/camiladebarros,+OA+v+20+n+3+p+332-340+ex+0997.pdf data de acesso: 25/09</p>
+
+                <p>https://lume.ufrgs.br/handle/10183/212915?utm_source data de acesso: 25/09</p>
+
+                <p>DEL‑CLARO, Kleber. A importância do comportamento de formigas em interações: formigas e tripes em Peixotoa tomentosa [Malpighiaceae], no cerrado. Rev. etol, N.Esp: 3‑10, 1998. Disponível em: https://pesquisa.bvsalud.org/portal/resource/pt/psi-17116. Acesso em: 09 out. 2025.</p>
+
+                <p>SMITH, C. R.; WARD, P. S.; BOLTON, B.; et al. Ant systematics: past, present, and future. Insect Systematics and Diversity, [S. l.], v. 9, n. 4, p. 1–28, 2023. Disponível em: https://academic.oup.com/isd/article/9/4/11/8248754. Acesso em: 09 out. 2025.</p>
+
+                <p>https://www.hup.harvard.edu/books/9780674040755?utm_source=chatgpt.com data de acesso: 9/10</p>
+
+                <p>https://toaz.info/doc-view-3 data de acesso: 09/10</p>
+
+                <p>HALE, Tom. How many ants are in the world? Think millions of billions. IFLScience, 23 jun. 2023. Disponível em: https://www.iflscience.com/how-many-ants-are-in-the-world-think-millions-of-billions-69505. Acesso em: 23 out. 2025.</p>
+
+                <p>IMUNI Saúde Ambiental. Formigas: 10 curiosidades incríveis. Imuni, 2019. Disponível em: https://www.imuni.com.br/formigas-10-curiosidades-incriveis/. Acesso em: 23 out. 2025.</p>
+
+                <p>UNICONTROL. Conheça algumas curiosidades sobre Formigas. Unicontrol, 19 jul. 2024. Disponível em: https://unicontrolbrasil.com. Acesso em: 23 de out. 2025https://www-ebsco-com.translate.goog/research-starters/language-and-linguistics/genus-biology?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=sge&_x_tr_hist=true  data de acesso: 23/10</p>
+
+                <p>https://www.todamateria.com.br/reino-animal/ data de acesso: 23/10</p>
+
+                <p>https://en-wikipedia-org.translate.goog/wiki/Order_(biology)?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc data de acesso: 23/10</p>
+
+                <p>https://www.biodiversity4all.org/taxa/47201-Hymenoptera data de acesso: 23/10</p>
+
+                <p>https://pt.wikipedia.org/wiki/Insetos data de acesso: 23/10</p>
+
+                <p>https://pt.wikipedia.org/wiki/Espécie data de acesso: 23/10</p>
+
+                <p>https://pt.wikipedia.org/wiki/Quenquém data de acesso: 23/10</p>
             </div>
             <div class="col">
                 <h4 class="informiga">Agradecimentos</h4>
